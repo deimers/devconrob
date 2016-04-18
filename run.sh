@@ -1,0 +1,1 @@
+sudo java -Djava.security.policy=./gpio.policy -Djava.library.path=/home/pi/dio/dev/build/so -classpath bin:/home/pi/dio/dev/build/jar/dio.jar -Djdk.dio.registry=/home/pi/dio/dev/config/dio.properties-raspberrypi $1 
